@@ -1,0 +1,23 @@
+{
+  "name": "b2303831_danghoangnghia_backend1",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Nghia Hoang",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start":"nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.28.0",
+    "eslint-config-prettier": "^10.1.5",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3"
+  }
+}
